@@ -7,7 +7,7 @@ public class PrivateConstructorDemo {
 		m.setId(10);
 		MyClass  m1=MyClass.getObject();
 		
-		System.out.println
+		System.out.println();
 	}
 
 }

@@ -10,7 +10,7 @@ public class  Trainer extends Person {
 		this.designation="program trainer";
 		this.location ="chennai";
 	}
-	public Trainer(int id,String name,String city,String designaton,String location, String designation)
+	public Trainer(int id,String name,String city,String designation,String location)
 	{
 		super(id,name,city);
 		this.designation=designation;
@@ -30,7 +30,7 @@ public class  Trainer extends Person {
 	}
 	@Override
 	public String toString() {
-		return "Trainer [id:"+getId()+" Name:"+getName()+" city:"+getCity()+" designation=" + designation + ", location=" + location + "]";
+		return "Trainer [id:"+getId()+" Name:"+getName()+" city:"+getCity()+" Designation=" + designation + ", location=" + location + "]";
 	}
 	
 
